@@ -59,14 +59,13 @@ set(document.getElementById('theme'),get_theme());
          <body>
           <center>
         <h1>/{{board}}/</h1>
-         <p><input type = "text" name = "name" placeholder="name" size=50 value="{{anon}}"/></p>
-         <p><input type = "text" name = "options" placeholder="options" size=50/></p>
-         <textarea id="body" rows="4" cols="50" placeholder="body" name="body">{{reply}}</textarea>
-
-         <p><input type = "password" name = "password" placeholder="password" size=50 value="{{gen(5)}}"/></p>
-            <input type="file" name="file">
-         <p1><button class="button"><b>Post</b></p1></button>
-      </form>
+         <center><table>
+<tr id='namerow'><td style='border: 1px solid #000;'>Name</td><td><input type='text' name='name' value='{{anon}}' tabindex='1'></td></tr>
+<tr id='subrow'><td style='border: 1px solid #000;'>Options</td><td><input name='options' type='text' tabindex='3'><input type='submit' class='button' value='Post' tabindex='6'></td></tr>
+<tr id='comrow'><td style='border: 1px solid #000;'>Comment</td><td><textarea name='body' id='body' cols='48' rows='4' wrap='soft' tabindex='4'>{{reply}}</textarea></td></tr>
+<tr id='uprow'><td style='border: 1px solid #000;'>File</td><td><input id='postFile' type='file' name='file' tabindex='7'><br />
+<tr><td style='border: 1px solid #000;' id='delField'>Password</td><td><input type='password' name='password' size='8' value="{{gen(5)}}" id='postPassword' style='text-align:center;'></td></tr>
+</table></form></center>
       </center>
       </br>
       <center>
