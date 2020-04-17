@@ -149,6 +149,10 @@ def green(text , board):
 				elif text[i+1]!=">" and not green_text and text[i-1]=="\n":
 					green_text=True
 					res+='<font color="green">'+"&gt;"
+
+				elif text[i+1]!=">" and not green_text and text[i-1]=="\n":
+					green_text=True
+					res+='<font color="green">'+"&gt;"
 				elif text[i+1]!=">" and not green_text:
 					green_text=True
 					res+="&gt;"
