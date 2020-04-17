@@ -1,4 +1,11 @@
-
+.postblock {
+	background-color: #98E;
+	color: #000;
+	font-weight: bold;
+	border: 1px solid #000;
+	padding: 0 5px;
+	font-size: 10pt;
+}
 .right{
     float:right;
 }
@@ -52,4 +59,14 @@ video {
 body{
   background: #EEF2FF;
   color: #000;
+    font-family:serif;
+}
+
+.postblock {
+	background-color: #98E;
+	color: #000;
+	font-weight: bold;
+	border: 1px solid #000;
+	padding: 0 5px;
+	font-size: 10pt;
 }

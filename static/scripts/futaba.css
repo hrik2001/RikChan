@@ -1,4 +1,11 @@
-
+.postblock {
+	background-color: #EA8;
+	color: #800;
+	font-weight: 700;
+	border: 1px solid #800;
+	padding: 0 5px;
+	font-size: 10pt;
+}
 .right{
     float:right;
 }
@@ -51,5 +58,6 @@ video {
 
 body{
   background-color: #FFFFF0;
+  font-family:serif;
   color: #800000;
 }
